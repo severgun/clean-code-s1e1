@@ -42,7 +42,8 @@
 .tasks-list__item {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 .button {
@@ -58,7 +59,9 @@ input,button{
   color: #3a3a3a;
 }
 /* Heading */
-.todo-title, .completed-title, .new-task-title {
+.todo-title,
+.completed-title,
+.new-task-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -67,7 +70,8 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
-.new-task__input, .tasks-list__input {
+.new-task__input,
+.tasks-list__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +83,8 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.new-task__input:focus, .tasks-list__input:focus {
+.new-task__input:focus,
+.tasks-list__input:focus {
   color: #333;
 }
 
