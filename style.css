@@ -27,7 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.new-task__input, .tasks-list__label, .tasks-list__input {
+.new-task__input,
+.tasks-list__label,
+.tasks-list__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +41,16 @@
   margin: 0;
   padding: 0px;
 }
-.tasks-list__item, .new-task-title, .todo-title, .completed-title {
+.tasks-list__item,
+.new-task-title,
+.todo-title,
+.completed-title {
   list-style: none;
 }
-.new-task__input, .tasks-list__checkbox, .tasks-list__input, .button {
+.new-task__input,
+.tasks-list__checkbox,
+.tasks-list__input,
+.button {
   outline: none;
 }
 .button {
@@ -58,7 +66,9 @@
   color: #3a3a3a;
 }
 /* Heading */
-.new-task-title, .todo-title, .completed-title {
+.new-task-title,
+.todo-title,
+.completed-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -67,7 +77,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.new-task__input, .tasks-list__input {
+.new-task__input,
+.tasks-list__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +90,8 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.new-task__input:focus, .tasks-list__input:focus {
+.new-task__input:focus,
+.tasks-list__input:focus {
   color: #333;
 }
 
