@@ -14,7 +14,7 @@
   width: 100%;
 }
 .header__more-info-link {
-  font-family: fantasy, cursive;
+  font-family: Papyrus, cursive;
 }
 
 @media (max-width: 768px) {
